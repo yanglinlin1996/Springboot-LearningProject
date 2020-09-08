@@ -7,3 +7,6 @@ insert into orders values( 2003, 'order13', 101);
 insert into orders values( 2004, 'order21', 102);
 insert into orders values( 2005, 'order22', 102);
 insert into orders values( 2006, 'order31', 103);
+insert into employee values(001, 'Sales', '2010-03-29', '2012-02-02 08:00:27', '2012-02-04 10:35:10', 'Alexander', '17000');
+insert into employee values(002, 'Technology', '2010-10-03', '2011-04-06 11:00:27', '2012-05-04 10:38:19', 'Frank', '129000');
+insert into employee values(003, 'HR', '2008-07-23', '2010-06-30 20:01:31', '2011-01-11 03:37:15', 'Richard', '98100');
