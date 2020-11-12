@@ -15,11 +15,11 @@ public class EmployeeService {
 
 	// Autowire the EmployeeRepository
 	@Autowired
-	private EmployeeRepository empRepository;
+	private EmployeeRepository employeeRepository;
 	
 	// getUserById
 	public Optional<Employee> getEmployeeById(Long id) throws UserNotFoundException {
-		Optional<Employee> employee = empRepository.findById(id);
+		Optional<Employee> employee = employeeRepository.findById(id);
 		
 		if (!employee.isPresent()) {
 			throw new UserNotFoundException("Employee not found in user repository");
