@@ -21,7 +21,7 @@ import com.fasterxml.jackson.annotation.JsonView;
 // Entity
 @ApiModel(description="This model is to create a user.")
 @Entity
-@Table(name = "user")
+@Table(name = "users")
 // @JsonIgnoreProperties({"firstname", "lastname"}) -- Static Filtering JsonIgnore
 // @JsonFilter(value="userFilter") -- Used for MappingJacksonValue filtering section
 public class User extends RepresentationModel<User> {

@@ -1,6 +1,6 @@
-insert into user values(101, 'Washington', 'kreddy@stacksimplify.com', 'Kalyan', 'Reddy', 'admin', 'ssn101', 'kreddy');
-insert into user values(102, 'California', 'gwiser@stacksimplify.com', 'Greg', 'Wiser', 'admin', 'ssn102', 'gwiser');
-insert into user values(103, 'New York', 'dmark@stacksimplify.com', 'David', 'Mark', 'admin', 'ssn103', 'dmark');
+insert into user values(101, 'Washington', 'kingwen@me.com', 'King', 'Wen', 'admin', 'ssn1123', 'kreddy');
+insert into user values(102, 'California', 'yll@me.com', 'Lin', 'Yang', 'admin', 'ssn1111', 'gwiser');
+insert into user values(103, 'New York', 'applegreen@outlook.com', 'Apple', 'Green', 'admin', 'ssn9999', 'dmark');
 insert into orders values( 2001, 'order11', 101);        
 insert into orders values( 2002, 'order12', 101);
 insert into orders values( 2003, 'order13', 101);
